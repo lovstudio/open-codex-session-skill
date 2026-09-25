@@ -6,7 +6,7 @@ license: MIT
 compatibility: "Codex desktop host with navigate_to_codex_page; Python 3.8+ for the shared Profile reader."
 metadata:
   author: lovstudio-contributors
-  version: "0.1.1"
+  version: "0.1.2"
   card_standard: lovstudio/skill-card/v1
   content_class: deterministic-output
   tags:
@@ -16,7 +16,7 @@ metadata:
     - desktop
 ---
 
-# lov-open-codex-session — 打开指定 Codex 任务
+# Codex 任务直达 · Codex Task Launcher
 
 把稳定的 Codex `sessionId` / `threadId` 交给宿主导航能力，让当前 Codex 主窗口切换到准确任务。Skill 只负责定位与打开，不修改任务内容、归档状态或 Git 状态。
 
